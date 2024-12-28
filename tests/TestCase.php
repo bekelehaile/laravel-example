@@ -2,9 +2,9 @@
 
 namespace Fidel\Example\Tests;
 
+use Fidel\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Fidel\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
